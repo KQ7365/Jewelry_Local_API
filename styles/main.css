@@ -1,0 +1,41 @@
+.styleme {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKTazR-VcjtBd4rqhEg2qj7PkECW2NLWw7NGONMPwQG9ed1orbr6dPbOgJ7VJGx_4RWfs&usqp=CAU);
+  background-position: 50% 50%;
+  width: 100%;
+
+  background-repeat: no-repeat;
+  font-family: cursive;
+  height: 180px;
+  /* position: relative; */
+  /* text-align: center; */
+}
+
+.Title {
+  text-align: left;
+  padding-left: 45px;
+  padding-bottom: 60px;
+  font-size: 60px;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid;
+  padding-bottom: 10px;
+  box-shadow: 6px 4px 8px;
+  width: 98%;
+  font-size: 18px;
+}
+.print {
+  text-align: center;
+  font-size: 30px;
+}
+
+.order {
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+.order:hover {
+  background-color: black;
+}
